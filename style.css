@@ -1,0 +1,55 @@
+/* General reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif, sans-serif;
+    background-color: white; /* Background color */
+}
+
+/* Full-width background */
+header {
+    width: 100%;
+    background-color: #1F2937; /* Example background color */
+    padding: 20px 0;
+}
+
+/* Centered content with 80% width */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo styling */
+.logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Navigation menu styling */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffa500; /* Hover effect */
+}
